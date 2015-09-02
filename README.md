@@ -10,12 +10,12 @@ To play, go to: https://sharebear42.github.io/Space-Metal
 
 # Controls
 
-W : forward thrust (in relation to the spacecraft)
-S : backward thrust
-A : left rotational thrust
-D : right rotational thrust
-Q : left horizontal thrust
-E : right horizontal thrust
+W : forward thrust (in relation to the spacecraft)  
+S : backward thrust  
+A : left rotational thrust  
+D : right rotational thrust  
+Q : left horizontal thrust  
+E : right horizontal thrust  
 
 Left Shift : centers veiw on mouse pointer
 Left Alt + R : restart game
