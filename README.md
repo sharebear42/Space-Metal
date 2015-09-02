@@ -22,7 +22,7 @@ Left Alt + R : restart game
 <br />
 <br />
 
-Assets not from the Space Shooter tutorial:
+Assets not from the Space Shooter tutorial:  
 The battleship model was made by yulifernandez
 
 The fighter model was made by homerender of Vertex Studio
