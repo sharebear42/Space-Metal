@@ -1,6 +1,6 @@
 # Space-Metal
 
-This is a 2D game I made in Unity from the Space Shooter tutorial assets (plus a few others) while learning to code. 
+This is a 2D physics game I made in Unity from the Space Shooter tutorial assets (plus a few others) while learning to code. 
 
 The player ships are controlled through force impulses applied to various points on the gameobjects. The enemy ship's
 position is controlled through the physics engine, however, the rotation is controlled by affecting the transform. 
