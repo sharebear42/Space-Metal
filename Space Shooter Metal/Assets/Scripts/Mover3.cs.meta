@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2b66493605e5d1d4fb351d27a1a0278b
+timeCreated: 1435439169
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
+  - shot: {fileID: 128222, guid: 78a2074c7da2de24f90c73c80b2e018f, type: 2}
+  - bolt: {fileID: 5420640, guid: 78a2074c7da2de24f90c73c80b2e018f, type: 2}
+  - gunCollider: {fileID: 128222, guid: 78a2074c7da2de24f90c73c80b2e018f, type: 2}
+  - playerCollider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

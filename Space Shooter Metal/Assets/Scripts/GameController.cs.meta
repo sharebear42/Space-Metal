@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0212464fec284ee48837668f9d131f43
+timeCreated: 1435387408
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hazard: {fileID: 158590, guid: 0b81e9579c7a06c4abe8c33ba0f27f86, type: 2}
+  - scoreText: {instanceID: 0}
+  - restartText: {instanceID: 0}
+  - gameOverText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
