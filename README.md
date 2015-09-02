@@ -1,4 +1,4 @@
-# turbulent-octo-rutabaga
+# Space-Metal
 
 This is a game I made in Unity from the Space Shooter tutorial assets (plus a few others) while learning to code. 
 
