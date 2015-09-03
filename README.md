@@ -36,7 +36,7 @@ Explosion prefabs and explosion force scripts were made by Ben Throop
 
 Ship thruster audio was made by dobroride  
 
-Weapon sounds for both player ships made by The Redordist  
+Weapon sounds for both player ships made by The Recordist  
 
 Music by Metallica
 
