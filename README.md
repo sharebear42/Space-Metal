@@ -19,7 +19,7 @@ A : left rotational thrust
 D : right rotational thrust  
 Q : left horizontal thrust  
 E : right horizontal thrust  
-
+Left Mouse Button : fire cannon
 Left Shift : centers veiw on mouse pointer  
 Left Alt + R : restart game
 <br />
