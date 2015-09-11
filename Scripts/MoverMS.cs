@@ -4,7 +4,8 @@ using System.Collections;
 public class MoverMS : MonoBehaviour 
 {
 	/// <summary>
-	/// Controls the velocity and collisions of the battleship's projectile.
+	/// Controls the velocity and collisions of the battleship's projectile. Unlike the fighter's projectile, the battleship's adds an additional explosion force that 
+	/// throws pushes all nearby objects away from the explosion point. The force script can be found in the Prefabs/VFX/explosions folder  
 	/// </summary>
 
 	public float speed;										// initial force given to the rigidbody.

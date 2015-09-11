@@ -177,12 +177,12 @@ public class GameController : MonoBehaviour
 			}
 
 			if (Time.time > ranAttack && enemy2Num > 0) {
-				Instantiate (enemy2, new Vector3(Random.Range (-70, 70), 0.25f, -20.0f), transform.rotation);
-				enemy2Num -= 1;
+				Instantiate (enemy2, new Vector3(Random.Range (-70, 70), 0.25f, -20.0f), transform.rotation);		// instantiates the enemy2 prefab at a random point ..
+				enemy2Num -= 1;																						//.. along the bottom of the game area.														
 			}
 		}
 		
-		if (gameStart2 == true && restart == false && motherShip != null) {
+		if (gameStart2 == true && restart == false && motherShip != null) {                                          // same as above for the battleship
 			Vector3 v3Velocity = motherShipRb.velocity;
 			float vel2 = v3Velocity.magnitude * 200.0f;
 			string str2 = vel2.ToString ("N0");
@@ -205,7 +205,6 @@ public class GameController : MonoBehaviour
 			if (Time.time > ranAttack && enemy2Num > 0) {
 				Instantiate (enemy2, new Vector3(Random.Range (-70, 70), 0.25f, -20.0f), transform.rotation);
 				enemy2Num -= 1;
-				ranAttack = Random.Range (10, 30) + Time.time; 
 			}
 		}
 

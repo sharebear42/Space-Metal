@@ -156,6 +156,7 @@ public class EnemyAI2 : MonoBehaviour {
 			Destroy (this.gameObject);
 			Instantiate (explosion, transform.position, transform.rotation);
 			gameController.enemy2Num = 1;
+			gameController.ranAttack = Random.Range (10, 20) + Time.time;
 		}
 	}
 	void lookAt ()
