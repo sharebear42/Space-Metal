@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{2AD469E0-12A7-74CA-C88C-635619060899}</ProjectGuid>
+	<ProjectGuid>{2130BA36-12CA-4156-D717-C5306A45BB89}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,21 +49,14 @@
      <Compile Include="Assets\Prefabs\VFX\Engines\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\Sample Supporting Emitters\DetonatorSprayHelper.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\Detonator.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorBurstEmitter.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorCloudRing.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorComponent.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorFireball.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorForce.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorGlow.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorHeatwave.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorLight.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorShockwave.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSmoke.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSound.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSparks.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSpray.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\TestScene\DetonatorTest.cs" />
-     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\TestScene\TouchToMouse.cs" />
      <Compile Include="Assets\Scripts\AstMover.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
