@@ -49,12 +49,17 @@
      <Compile Include="Assets\Prefabs\VFX\Engines\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\Sample Supporting Emitters\DetonatorSprayHelper.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\Detonator.cs" />
+     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorBurstEmitter.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorComponent.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorFireball.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorForce.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorLight.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorShockwave.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSound.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSparks.cs" />
      <Compile Include="Assets\Prefabs\VFX\Explosions\Detonator Explosion Framework\Resources\System\DetonatorSpray.cs" />
      <Compile Include="Assets\Scripts\AstMover.cs" />
