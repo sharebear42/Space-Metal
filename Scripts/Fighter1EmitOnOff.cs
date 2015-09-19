@@ -7,8 +7,6 @@ public class Fighter1EmitOnOff : MonoBehaviour
 	/// Controls the particle system attached to main thruster of the fighter gameobject.
 	/// </summary>
 
-	public ParticleSystem particleSystem;
-	
 	private GameController gameController;
 
 	void Start ()
@@ -22,7 +20,6 @@ public class Fighter1EmitOnOff : MonoBehaviour
 	void Update()
 	{
 		if (gameController.gameStart1 == true) {	
-			particleSystem = (ParticleSystem)GameObject.FindObjectOfType (typeof(ParticleSystem));
 
 			if (Input.GetKey (KeyCode.W)) {
 				GetComponent<Renderer> ().enabled = true;

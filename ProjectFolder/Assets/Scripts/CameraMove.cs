@@ -9,7 +9,7 @@ public class CameraMove : MonoBehaviour
 
 	private GameObject fighter1;		//refence to the fighter.
 	private GameObject motherShip;		//reference to the mothership.
-	private Camera camera;				//refenences the game camera as a type of Camera.
+	private Camera camera1;				//refenences the game camera as a type of Camera.
 	private GameObject mainCamera;		//references the camera as a GameObject.
 
 
@@ -22,7 +22,7 @@ public class CameraMove : MonoBehaviour
 		fighter1 = GameObject.FindWithTag ("Fighter1");
 		motherShip = GameObject.FindWithTag ("DirectionSet");
 		mainCamera = GameObject.FindWithTag ("MainCamera");
-		camera = mainCamera.GetComponent<Camera> (); 
+		camera1 = mainCamera.GetComponent<Camera> (); 
 	}
 
 	void FixedUpdate ()
@@ -34,7 +34,7 @@ public class CameraMove : MonoBehaviour
 			transform.position = temp1;
 
 			if (Input.GetKey (KeyCode.LeftShift)) {
-				Vector3 MouseWorldPosition = camera.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
+				Vector3 MouseWorldPosition = camera1.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
 				transform.position = MouseWorldPosition;		//if left shift is pressed, the camera follows the mouseposition.
 			}
 		}
@@ -46,7 +46,7 @@ public class CameraMove : MonoBehaviour
 			transform.position = temp2;
 
 			if (Input.GetKey (KeyCode.LeftShift)) {
-				Vector3 MouseWorldPosition = camera.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
+				Vector3 MouseWorldPosition = camera1.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
 				transform.position = MouseWorldPosition;		//if left shift is pressed, the camera follows the mouseposition.
 			}
 		}

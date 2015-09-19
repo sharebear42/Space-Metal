@@ -7,8 +7,7 @@ public class Fighter1EmitOnOffRW : MonoBehaviour
 	/// Controls the thruster object on the side of the fighter pointing forwards, opposite to the direction of the forward thrusters.
 	/// Applies force to the attached rigidbody, which is itelf attached to the fighter parent parent object by a fixed joint.
 	/// </summary>
-
-	public ParticleSystem particleSystem;
+	
 	public float rThrust;
 	
 	private GameController gameController;				// gets the gamecontroller script in order to access the gameStart1 and 2 variables.

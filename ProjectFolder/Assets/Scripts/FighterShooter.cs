@@ -17,7 +17,7 @@ public class FighterShooter : MonoBehaviour
 	public float recoil;								// amount of force applied in the opposite direction of each shot. set in the editor.
 	public Transform fighterShooter;					// reference to the transform of the object.
 	
-	private Camera camera;								// camera referenced as a camera type and gameobject type.
+	private Camera camera1;								// camera referenced as a camera type and gameobject type.
 	private GameObject mainCamera;
 	private GameController gameController;				// refence to the gamecontroller script.
 	
@@ -39,7 +39,7 @@ public class FighterShooter : MonoBehaviour
 		ammoText = scoreTextObj.GetComponent<GUIText> ();
 		reload1.text = "<Ready to Fire>";								// the reload text is set to "<Ready to Fire>" at the start of the game.
 		mainCamera = GameObject.FindWithTag ("MainCamera");
-		camera = mainCamera.GetComponent<Camera> (); 
+		camera1 = mainCamera.GetComponent<Camera> (); 
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		gameController = gameControllerObject.GetComponent <GameController> ();
 	}
@@ -47,7 +47,7 @@ public class FighterShooter : MonoBehaviour
 	void Update ()
 	{
 		if (gameController.gameStart1 == true) {			// makes the turret look at the mouse pointer once the player has selected the fighter
-			Vector3 MouseWorldPosition = camera.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
+			Vector3 MouseWorldPosition = camera1.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
 			transform.LookAt (MouseWorldPosition); 
 			transform.rotation = Quaternion.Euler (new Vector3 (0, transform.rotation.eulerAngles.y, 0));
 			

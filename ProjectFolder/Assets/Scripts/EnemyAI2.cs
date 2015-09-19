@@ -37,9 +37,6 @@ public class EnemyAI2 : MonoBehaviour {
 	private float enemy1Orig;
 	private float targetDistance;
 	
-	private GameObject shot;
-	private GameObject shot2;
-	
 	private float fireRate;
 	private float nextFire;
 	private GameObject asteroid;
@@ -53,8 +50,6 @@ public class EnemyAI2 : MonoBehaviour {
 		directionSet = GameObject.FindWithTag ("DirectionSet");
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		gameController = gameControllerObject.GetComponent <GameController> ();
-		shot = GameObject.FindWithTag ("Shot");
-		shot2 = GameObject.FindWithTag ("Shot2");
 		nextFire = 0.0f;
 	}
 	
@@ -229,9 +224,6 @@ public class EnemyAI2 : MonoBehaviour {
 			if (dam > armor) {
 				float damt = dam - armor;
 				enemy2Hp -= damt;
-				
-				string test = dam.ToString ("F3");
-				Debug.Log ("Enemy2 is hit = " + test + " time = " + Time.time);
 			}
 		}
 
@@ -244,9 +236,7 @@ public class EnemyAI2 : MonoBehaviour {
 			if (dam > armor) {
 				float damt = dam - armor;
 				enemy2Hp -= damt;
-				
-				string test = damt.ToString ("F1");
-				Debug.Log ("Enemy2 is hit by MS = " + test + " time = " + Time.time);
+
 			}
 		}
 		if (hit.gameObject.tag == "Fighter1") {
@@ -259,9 +249,6 @@ public class EnemyAI2 : MonoBehaviour {
 			if (dam > armor) {
 				float damt = dam - armor;
 				enemy2Hp -= damt;
-				
-				string test = damt.ToString ("F1");
-				Debug.Log ("Enemy2 is hit by Fighter = " + test + " time = " + Time.time);
 			}
 		}
 		if (hit.gameObject.tag == "ShotEnemy1") {

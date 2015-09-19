@@ -7,11 +7,8 @@ public class Enemy2PSOnOff : MonoBehaviour {
 	/// Controls the particle system attached to the 'Enemy2' prefab child object.
 	/// </summary>
 
-	private ParticleSystem particleSystem;
-
 	void Start () {
 		GetComponent<Renderer>().enabled = false;
-		particleSystem = this.GetComponent<ParticleSystem> ();
 	}
 
 	void FixedUpdate () {

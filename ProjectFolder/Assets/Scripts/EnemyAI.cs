@@ -38,9 +38,7 @@ public class EnemyAI : MonoBehaviour {
 	private float targetDistance;				// distance to the player.
 	private float fireRate;						// the time between shots.
 	private float nextFire;						// a variable to hold the time in seconds in order to calculate the reloading time.
-
-	private GameObject shot;					// reference to the prefab gameobject of the projectile used by the battleship.
-	private GameObject shot2;					// reference to the prefab gameobject of the projectile used by the fighter.
+	
 	private GameObject asteroid;				// refernce to the asteroid prefab.
 	private GameObject motherShip;				// reference to the mothership (battleship) gameobject.
 
@@ -53,8 +51,6 @@ public class EnemyAI : MonoBehaviour {
 	directionSet = GameObject.FindWithTag ("DirectionSet");
 	GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 	gameController = gameControllerObject.GetComponent <GameController> ();
-	shot = GameObject.FindWithTag ("Shot");
-	shot2 = GameObject.FindWithTag ("Shot2");
 	nextFire = 0.0f;							// initializes 'nextFire' at 0.0.
 	}
 	

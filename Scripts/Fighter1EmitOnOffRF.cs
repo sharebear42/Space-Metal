@@ -7,8 +7,7 @@ public class Fighter1EmitOnOffRF : MonoBehaviour
 	/// Controls the thruster object on the side of the fighter pointing to the left, perpendicular to the direction of the forward thrusters.
 	/// Applies force to the attached rigidbody, which is itelf attached to the fighter parent parent object by a fixed joint.
 	/// </summary>
-
-	public ParticleSystem particleSystem;
+	
 	public float rThrust;
 	
 	private GameController gameController;		// gets the gamecontroller script in order to access the gameStart1 and 2 variables.
@@ -27,7 +26,6 @@ public class Fighter1EmitOnOffRF : MonoBehaviour
 
 			if (Input.GetKey (KeyCode.E)) {
 				GetComponent<Rigidbody> ().AddRelativeForce ((Vector3.back * rThrust * Time.deltaTime), ForceMode.Impulse);	// force applied.
-				GetComponent<ParticleSystem> ().startRotation = 0.0f;
 				GetComponent<Renderer> ().enabled = true;
 				GetComponent<AudioSource> ().mute = false;
 			} else {

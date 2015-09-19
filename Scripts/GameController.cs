@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Controls the players choice between ships at the start of the game as well as the spawning of the asteroids and the second enemy
 	/// character, 'Enemy2'. Also controls the random selection between the four Metallica tracks. Updates the gameover, restart, and 
-	/// velocity ui text as well as their color. Controls the restarting of the level if the player either dies or completes the objective.
+	/// velocity ui text as well as their color. Controls the restarting of the level if the player either dies or completes the objective
 	/// </summary>
 
 
@@ -51,7 +51,7 @@ public class GameController : MonoBehaviour
 	private PlayerControllerMS playerControllerMS;	// references to the playercontroller scripts.
 	private PlayerControllerFighter playerControllerFighter;
 
-	private float ranAttack;						// stores the random time until the next enemy2 is instantiated.
+	public float ranAttack;						// stores the random time until the next enemy2 is instantiated.
 
 	void Start ()					// *** Setting up the game.. ***
 	{

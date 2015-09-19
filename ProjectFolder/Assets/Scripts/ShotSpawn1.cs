@@ -17,7 +17,7 @@ public class ShotSpawn1 : MonoBehaviour {
 	public float recoil;								// amount of force applied in the opposite direction of each shot. set in the editor.
 	public float damp;									// variable used to control the turn speed of the turret.
 	
-	private Camera camera;								// camera referenced as a camera type and gameobject type.
+	private Camera camera1;								// camera referenced as a camera type and gameobject type.
 	private GameObject mainCamera;
 	private GameController gameController;				// refence to the gamecontroller script.
 	
@@ -41,7 +41,7 @@ public class ShotSpawn1 : MonoBehaviour {
 		ammoText = ammoTextObj.GetComponent<GUIText> ();
 		reload1.text = "<Ready to Fire>";
 		mainCamera = GameObject.FindWithTag ("MainCamera");
-		camera = mainCamera.GetComponent<Camera> (); 
+		camera1 = mainCamera.GetComponent<Camera> (); 
 		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
 		gameController = gameControllerObject.GetComponent <GameController> ();
 	}
@@ -49,7 +49,7 @@ public class ShotSpawn1 : MonoBehaviour {
 	void Update ()
 	{
 		if (gameController.gameStart2 == true) {			// makes the turret look at the mouse pointer once the player has selected the battleship.
-			Vector3 MouseWorldPosition = camera.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
+			Vector3 MouseWorldPosition = camera1.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0.0f));
 			Quaternion rotationAngle = Quaternion.LookRotation (MouseWorldPosition - transform.position);
 			transform.rotation = Quaternion.Slerp (transform.rotation, rotationAngle, Time.deltaTime * damp); // turn speed is controlled with a var.
 			

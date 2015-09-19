@@ -8,19 +8,6 @@ public class DestroyByContact : MonoBehaviour
 	/// Causes the them to bounce off of the boundary objects.
 	/// </summary>
 
-	private GameObject boundR;		// refences to the boundary objects..
-	private GameObject boundL;
-	private GameObject boundUp;
-	private GameObject boundDown;
-
-	void Start ()
-	{
-		boundR = GameObject.FindWithTag ("BoundR");
-		boundL = GameObject.FindWithTag ("BoundL");
-		boundUp = GameObject.FindWithTag ("BoundUp");
-		boundDown = GameObject.FindWithTag ("BoundDown");
-	}
-
 	void OnCollisionEnter(Collision hit) 
 	{					
 		float frc = hit.relativeVelocity.magnitude;			// on collision with one of the boundary objects, extra force equal to ..
