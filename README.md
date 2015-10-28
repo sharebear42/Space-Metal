@@ -1,5 +1,4 @@
-# Space-Metal
-<img src="https://github.com/sharebear42/Space-Metal/blob/master/space-metal-logo1.jpg" width:"200px";height:"180px">  
+![alt tag](https://github.com/sharebear42/Space-Metal/blob/master/space-metal-logo1.jpg)   
 This is a 2D physics game I made in Unity from the Space Shooter tutorial assets (plus a few others) while learning to code. 
 
 The goal is to cross the alien infested asteroid field with enough fuel remaining to slow your ship to less than
